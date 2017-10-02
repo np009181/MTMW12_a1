@@ -20,7 +20,7 @@ dx=(b-a)/n
 #Initialise the integral#
 I=0.0
 
-for i in xrange(0,n):
+for i in xrange(0,n): #use this to find the sum up to n#
     
     I+=(a + (i+0.5)*dx)
     
