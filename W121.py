@@ -4,12 +4,13 @@ Spyder Editor
 
 This is a temporary script file.
 """
-import numpy as np 
+
+
 #Assignment 1, Question 1#
-N=int(1e7)
-a=0
+N = int(1e7)
+a = 0
 for i in range(N):
-    a+=0.01
+    a += 0.01
 
 print(a)
 
